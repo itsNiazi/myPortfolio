@@ -1,9 +1,7 @@
+import ProjectCard from "./components/ProjectCard";
+
 function App() {
-  return (
-    <>
-    <h1>Portfolio</h1>
-    </>
-  )
+  return <ProjectCard />;
 }
 
-export default App
+export default App;
