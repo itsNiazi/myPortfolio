@@ -1,13 +1,14 @@
-import { Project } from "../types";
-import projects from "../data/projects.json";
+import { Project, Personal } from "../types";
+import { projects, personalInfo } from "../data/portfolioData.json";
 
 function ProjectCard() {
-  const name: string = "Doe";
+  const myInfo: Personal = personalInfo;
   const theProjects: Project[] = projects;
   return (
     <>
       <h1>Portfolio</h1>
-      <p>My name is {name}</p>
+      <p>{myInfo.name}</p>
+      <p>{myInfo.bio}</p>
       <section>
         {theProjects.map((project) => (
           <article key={project.id}>

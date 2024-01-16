@@ -1,0 +1,33 @@
+{
+  "personalInfo": {
+    "name": "Tareq Niazi",
+    "bio": "Software Developer",
+    "location": "Malmö, Sweden"
+  },
+  "projects": [
+    {
+      "id": 1,
+      "name": "Filmklubben",
+      "description": "First",
+      "technologies": ["HTML", "SCSS"]
+    },
+    {
+      "id": 2,
+      "name": "KnowledgeBase",
+      "description": "First group project",
+      "technologies": ["Nodejs", "PostgreSQL"]
+    },
+    {
+      "id": 3,
+      "name": "urlFortress",
+      "description": "Second group project",
+      "technologies": ["Nodejs", "Reactjs", "REST API"]
+    },
+    {
+      "id": 4,
+      "name": "Portfolio",
+      "description": "My personal portfolio",
+      "technologies": ["TypeScript", "Reactjs"]
+    }
+  ]
+}
